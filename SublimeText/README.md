@@ -1,6 +1,6 @@
 # Sublime Text
 
-With the terminal, the text editor is a developer's most important tool. Everyone has their preferences, but unless you're a hardcore [Vim](http://en.wikipedia.org/wiki/Vim_(text_editor)\) user, a lot of people are going to tell you that [Sublime Text](http://www.sublimetext.com/) is currently the best one out there.
+With the terminal, the text editor is a developer's most important tool. Everyone has their preferences, but unless you're a hardcore [Vim](http://en.wikipedia.org/wiki/Vim_\(text_editor\)\) user, a lot of people are going to tell you that [Sublime Text](http://www.sublimetext.com/) is currently the best one out there.
 
 Install the latest version of Sublime Text with homebrew, you should also have a license handy to enter after this is installed.
 
@@ -23,22 +23,7 @@ Now you can open a file with `$ subl myfile.py` or start a new project in the cu
 
 Using Dropbox we can sync our settings for Sublime between computers.
 
-On the first box:
 
-```
-cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-mkdir ~/Dropbox/config/Sublime
-mv User ~/Dropbox/config/Sublime/
-ln -s ~/Dropbox/config/Sublime/User
-```
-
-To link other macs to the same settings:
-
-```
-cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-rm -r User
-ln -s ~/Dropbox/config/Sublime/User
-```
 
 
 

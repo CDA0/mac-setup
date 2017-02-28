@@ -1,8 +1,10 @@
 # Install via zsh
 
+Follow the earlier article on zsh to get it setup.
+
 Install [`zsh-nvm`](https://github.com/lukechilds/zsh-nvm) and run `nvm upgrade`to upgrade.
 
-# Install [Node.js](http://nodejs.org/) with [nvm](https://github.com/creationix/nvm) \(Node Version Manager\):
+# Install \(without zsh\) [Node.js](http://nodejs.org/) with [nvm](https://github.com/creationix/nvm) \(Node Version Manager\):
 
 #### Install nvm
 
